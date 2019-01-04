@@ -13,6 +13,7 @@ class TestSettings:
         # self.network_page.click_network()
         # self.network_page.click_first_network()
         self.network_page.click_2g()
+        assert 0
 
     def test_mobile_network_settings_3g(self):
         # self.network_page.click_more()
